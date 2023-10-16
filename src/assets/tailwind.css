@@ -1,0 +1,33 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+a {
+  text-decoration: underline;
+}
+
+:root {
+  --bgColor: #fff;
+  --fontSize: 14px;
+  --textColor: #000;
+  --containerWidth: 1200px;
+}
+
+body {
+  
+  background-color: var(--bgColor);
+  font-size: var(--fontSize);
+  color: var(--textColor);
+}
+
+.container {
+  max-width: var(--containerWidth);
+  margin: 0 auto;
+}
+
+.grid-inner {
+  border: 1px solid #000;
+  padding: 10px;
+}
